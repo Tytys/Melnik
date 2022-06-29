@@ -7,13 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="Выбрать файл&#xD;&#xA;" HorizontalAlignment="Left" Margin="63,112,0,0" VerticalAlignment="Top" Height="66" Width="135" Click="button_Click"/>
-        <Button x:Name="button1" Content="шифрация инверсия" HorizontalAlignment="Left" Margin="353,143,0,0" VerticalAlignment="Top" Height="60" Width="125" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Дешифрация" HorizontalAlignment="Left" Margin="549,145,0,0" VerticalAlignment="Top" Height="60" Width="136" Click="button2_Click"/>
-        <Button x:Name="button3" Content="шифрация тетрады" HorizontalAlignment="Left" Margin="353,239,0,0" VerticalAlignment="Top" Height="53" Width="125" Click="button3_Click"/>
-        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="549,230,0,0" VerticalAlignment="Top" Height="62" Width="139"/>
-        <Button x:Name="button5" Content="шифрация &#xD;&#xA;перестановка" HorizontalAlignment="Left" Margin="353,321,0,0" VerticalAlignment="Top" Height="58" Width="140" Click="button5_Click"/>
-        <Button x:Name="button6" Content="Button" HorizontalAlignment="Left" Margin="549,329,0,0" VerticalAlignment="Top" Height="50" Width="139"/>
+        <Button x:Name="button" Content="Выбрать файл&#xD;&#xA;" HorizontalAlignment="Left" Margin="330,182,0,0" VerticalAlignment="Top" Height="112" Width="182" Click="button_Click" Background="#FFA20000" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="button1" Content="шифрация инверсия" HorizontalAlignment="Left" Margin="549,322,0,0" VerticalAlignment="Top" Height="112" Width="251" Click="button1_Click" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button3" Content="шифрация тетрады" HorizontalAlignment="Left" Margin="276,322,0,0" VerticalAlignment="Top" Height="112" Width="268" Click="button3_Click" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button5" Content="шифрация &#xD;&#xA;перестановка" HorizontalAlignment="Left" Margin="0,322,0,0" VerticalAlignment="Top" Height="112" Width="271" Click="button5_Click" FontSize="24" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="259,10,0,0" TextWrapping="Wrap" Text="Шифратор" VerticalAlignment="Top" Height="92" Width="325" TextAlignment="Center" FontSize="60" FontWeight="Bold">
+            <TextBlock.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFD1FFAC" Offset="0.41"/>
+                </LinearGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
 
     </Grid>
 </Window>

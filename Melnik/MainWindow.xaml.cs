@@ -31,17 +31,13 @@ namespace Melnik
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFile = new OpenFileDialog();
+            OpenFileDialog openFile = new();
             if (openFile.ShowDialog() == true)
             {
                 path = openFile.FileName;
             }
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
@@ -60,7 +56,7 @@ namespace Melnik
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
+            using (FileStream fs = new(path, FileMode.OpenOrCreate))
             {
                 byte[] bt = new byte[fs.Length];
                 fs.Read(bt, 0, (int)fs.Length);
