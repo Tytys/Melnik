@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Melnik"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="480" Width="820">
     <Grid>
         <Button x:Name="button" Content="Выбрать файл&#xD;&#xA;" HorizontalAlignment="Left" Margin="330,182,0,0" VerticalAlignment="Top" Height="112" Width="182" Click="button_Click" Background="#FFA20000" FontSize="22" FontWeight="Bold"/>
         <Button x:Name="button1" Content="шифрация инверсия" HorizontalAlignment="Left" Margin="549,322,0,0" VerticalAlignment="Top" Height="112" Width="251" Click="button1_Click" FontSize="24" FontWeight="Bold"/>
